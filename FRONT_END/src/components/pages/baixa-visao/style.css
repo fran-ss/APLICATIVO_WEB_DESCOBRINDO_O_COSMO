@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&family=Space+Grotesk:wght@300..700&display=swap');
+
+/* Reset básico e estilo global */
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+  }
+
+  @keyframes moveBackground {
+    0% {
+      background-position: 0% 50%; /* Começa à esquerda */
+    }
+    100% {
+      background-position: 100% 50%; /* Move para a direita */
+    }
+  }
+  
+  body {
+    margin: 0; /* Remove margens padrão */
+    height: 100vh; /* Altura total da tela */
+    background: linear-gradient(240deg, #021a3d, #2c2e9e, #032446); /* Gradiente azul escuro */
+    background-size: 1000% 1000%; /* Aumenta o tamanho do fundo para suavizar o movimento */
+    animation: moveBackground 3s linear infinite; /* Animação de movimento mais longa */
+  }
+  
+
+  #v1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    margin-left: 90px
+  }
+  
+  /* Estilos para títulos */
+  #h2 {
+    font-size: 28px; /* Tamanho de fonte maior para títulos */
+    color: #fff; /* Cor preta para alto contraste */
+    margin-bottom: 2px;
+    font-family: "Space Grotesk", sans-serif;
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+  
+  /* Container principal para os links */
+  .links-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaço entre os botões */
+    justify-content: center;
+    flex-direction: column;
+   
+  }
+  
+  /* Estilo dos botões/links */
+  .link-item {
+    background-color: #4c1d95; /* Cor de fundo para os botões */
+    padding: 20px; /* Aumenta o tamanho dos botões */
+    flex: 1 1 calc(33.333% - 20px); /* Três colunas com espaçamento */
+    transition: background-color 0.3s, transform 0.3s; /* Suaviza as mudanças de cor e transformação */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil aos botões */
+    height: 150px; /* Altura fixa para o quadrado */
+    max-width: 250px; /* Largura máxima */
+    border-radius: 10px;
+    margin: 12px; /* Margem ao redor dos itens */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Texto branco */
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Space Grotesk", sans-serif;;
+    border: 2px solid#007bff;
+    flex-direction: row;
+  }
+  
+  /* Estilo do botão ao passar o mouse */
+  .link-item:hover, .link-item:focus {
+    background-color: #2e1065; /* Cor alterada ao passar o mouse */
+    transform: scale(1.05); /* Aumenta o tamanho do botão ao focar ou passar o mouse */
+  }
+  
+  /* Estilo para botões gerais */
+  button {
+    background-color: #007bff; /* Cor de fundo para botões */
+    color: #fff; /* Cor do texto dos botões */
+    padding: 20px; /* Aumenta o tamanho dos botões */
+    border: none; /* Remove a borda padrão dos botões */
+    border-radius: 10px; /* Arredonda os cantos dos botões */
+    font-size: 22px; /* Tamanho maior para melhor legibilidade */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s, transform 0.3s; /* Suaviza as mudanças de cor e transformação */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil aos botões */
+    margin: -25px;
+  }
+  
+ 
+  
+  /* Estilo para links de navegação */
+  a {
+   
+    color: #007bff; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 18px; /* Tamanho de fonte para os links */
+  }
+  
+ #link-item1{
+  display: flex;
+  flex-direction: row;
+ }
+ #link-item2{
+  display: flex;
+  flex-direction: row;
+ }
+ #link-item3{
+  display: flex;
+  flex-direction: row;
+ }

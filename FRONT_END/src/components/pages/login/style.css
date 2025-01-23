@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&family=Space+Grotesk:wght@300..700&display=swap');
+
+/* Estilos da página principal */
+#page_1 {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+}
+
+/* Estilos do fundo do cosmos */
+.cosmos-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(240deg, rgb(30, 10, 60), rgb(40, 20, 100), rgba(60, 30, 140, 1));
+  animation: moveBackground 30s linear infinite;
+  background-size: 400% 400%;
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 70%);
+  opacity: 0.2;
+  animation: twinkle 2s infinite alternate;
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.1; }
+  100% { opacity: 0.5; }
+}
+
+#page-1-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.link-borda {
+  border: 2px solid #ffff;
+  padding: 10px;
+  border-radius: 20px;
+  transition: all 0.5s ease; /* Adiciona uma transição suave */
+  margin: 10px; /* Adiciona margem entre os links */
+}
+
+.link-borda:hover {
+  background-color: #9493e4; /* Altere a cor de fundo ao passar o mouse */
+  cursor: pointer; /* Muda o cursor para 'pointer' */
+}
+
+#login1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  position: relative; 
+  height: 100%;
+}
+
+#login1:hover {
+  filter: brightness(0.8);
+}
+
+h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 90px;
+  color: #eef2ff;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 45px;
+  color: #eef2ff;
+  font-weight: 300;
+  margin-bottom: 20px; /* Ajuste para dar um espaçamento melhor */
+}
+
+input {
+  padding: 20px;
+  width: 350px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+    border: 2px solid #ffff;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 0.5s ease; /* Adiciona uma transição suave */
+  }
+  
+  input:hover {
+    background-color: #9493e4; /* Altere a cor de fundo ao passar o mouse */
+    cursor: pointer; /* Muda o cursor para 'pointer' para indicar que é clicável */
+    
+  }
+
+
+button {
+  padding: 20px;
+  width: 350px;
+  margin-top: 15px;
+  border-radius: 20px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  background-color: #0c0d46;
+}
+.error-message {
+  background-color: #f8d7da; /* Cor de fundo suave para erro */
+  color: #721c24; /* Cor de texto vermelha escura */
+  border: 1px solid #f5c6cb; /* Borda mais suave, para combinar com o fundo */
+  border-radius: 8px; /* Bordas arredondadas */
+  padding: 20px; /* Espaçamento interno */
+  margin-top: 100px; /* Margem superior para separar do formulário */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  font-family: "Space Grotesk", sans-serif; /* Fonte personalizada */
+  font-size: 20px; /* Tamanho de fonte legível */
+  transition: all 0.3s ease; /* Adiciona transição suave */
+  width: 300px;
+  
+}
+
+.error-message h4 {
+  margin: 0;
+  font-weight: bold;
+  
+}
+
+.error-message:hover {
+  background-color: #f5c6cb; /* Altere a cor de fundo quando o usuário passar o mouse */
+  border-color: #f1a7b8; /* Tente um tom mais suave ao passar o mouse */
+}

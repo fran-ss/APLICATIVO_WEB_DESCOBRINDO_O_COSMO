@@ -1,0 +1,137 @@
+/* Container principal do quiz */
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 40px auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.quiz-container:hover {
+  transform: scale(1.02);
+}
+
+/* Título do quiz */
+.quiz-title {
+  font-size: 3rem;
+  color: #4a148c; /* Cor mais vibrante para o título */
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Container das perguntas */
+.questions {
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+/* Estilo das perguntas */
+.question {
+  margin-bottom: 4rem;
+}
+
+/* Estilo do texto das perguntas */
+.question p {
+  font-size: 1.4rem;
+  color: #555;
+  margin-bottom: 30px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+/* Opções de respostas */
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+/* Botões das opções */
+.option-button {
+  background-color: #4a148c; /* Cor de fundo mais forte */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 24px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  max-width: 400px;
+}
+
+.option-button:hover {
+  background-color: #6a1b9a;
+  transform: translateY(-3px); /* Efeito de levitação */
+}
+
+.option-button:disabled {
+  cursor: not-allowed;
+  background-color: #d1d1d1;
+}
+
+/* Estilo para botões corretos e incorretos */
+.correct {
+  background-color: #4caf50; /* Cor verde para a resposta correta */
+}
+
+.incorrect {
+  background-color: #f44336; /* Cor vermelha para a resposta incorreta */
+}
+
+.selected {
+  background-color: #010009; /* Cor escura para a opção selecionada */
+}
+
+/* Feedback após a escolha da resposta */
+.feedback {
+  margin-top: 25px;
+  font-size: 1.3rem;
+  color: #333;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Botões gerais (ex: Next, Previous) */
+#botao {
+  margin-top: 30px;
+}
+
+/* Estilo do botão principal */
+button {
+  background-color: #4a148c; /* Cor de fundo para botões principais */
+  border: 2px solid #93c5fd;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #6a1b9a;
+  transform: translateY(-3px);
+}
+
+/* Container dos botões de navegação do quiz */
+#botoesquiz {
+  display: flex;
+  flex-direction: row;
+  margin: 35px;
+  gap: 60px;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: center;
+}

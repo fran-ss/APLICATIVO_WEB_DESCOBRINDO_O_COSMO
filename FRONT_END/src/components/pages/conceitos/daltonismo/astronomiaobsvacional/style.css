@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&family=Space+Grotesk:wght@300..700&display=swap');
+
+/* style.css */
+
+/* Estilização para o container principal */
+@keyframes moveBackground {
+  0% {
+    background-position: 0% 50%; /* Começa à esquerda */
+  }
+  100% {
+    background-position: 100% 50%; /* Move para a direita */
+  }
+}
+
+
+.astro{
+  font-family: "Space Grotesk", sans-serif;
+  padding: 30px;
+  margin: 0; /* Remove margens padrão */
+  height: 200vh; /* Altura total da tela */
+  width: 100%;
+  background: linear-gradient(240deg, #020617, #25015e, #080124); /* Gradiente preto e cinza */
+  background-size: 1400% 400%; /* Aumenta o tamanho do fundo para suavizar o movimento */
+  animation: moveBackground 5s linear infinite;
+  text-align: justify;
+}
+.astronomia-container {
+    font-family: "Space Grotesk", sans-serif;
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+  
+  /* Estilização do título */
+  .astronomia-title {
+    color: #000;
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: center;
+  }
+  
+  /* Estilização do parágrafo */
+  .astronomia-description {
+    color: #333;
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilização da imagem */
+  .astronomia-image {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Media Queries para dispositivos menores */
+  @media (max-width: 76px) {
+    .astronomia-title {
+      font-size: 24px;
+    }
+  
+    .astronomia-description {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .astronomia-title {
+      font-size: 20px;
+    }
+  
+    .astronomia-description {
+      font-size: 14px;
+    }
+  }
+
+img{
+ margin-left: 7rem;
+}
+
+
+  #botao {
+   margin-left: 30rem ;
+  }
+  

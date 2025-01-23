@@ -1,0 +1,16 @@
+POST http://localhost:3333/register HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "João",
+  "email": "joao@example.com",
+  "password": "senha123"
+}
+###
+POST http://localhost:3333/signin HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "joao@example.com",
+  "password": "senha123"
+}

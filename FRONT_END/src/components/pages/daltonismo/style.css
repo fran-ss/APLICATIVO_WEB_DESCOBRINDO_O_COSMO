@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0% 50%; /* Começa à esquerda */
+  }
+  100% {
+    background-position: 100% 50%; /* Move para a direita */
+  }
+}
+
+
+.daltonismo-container {
+  font-family: "Space Grotesk", sans-serif;
+  padding: 30px;
+  margin: 0; /* Remove margens padrão */
+  height: 100vh; /* Altura total da tela */
+  width: 100%;
+  background: linear-gradient(240deg, #020617, #25015e, #080124); /* Gradiente preto e cinza */
+  background-size: 1400% 400%; /* Aumenta o tamanho do fundo para suavizar o movimento */
+  animation: moveBackground 5s linear infinite;
+}
+
+.daltonismo-title {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: "Space Grotesk", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.link-D {
+  background-color: #581c87;
+  color: #E6E6FA;
+  text-decoration: none;
+  padding: 33px;
+  border-radius: 30px;
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+ transition: background-color 0.3s;
+  height: 140px;
+  font-size: 25px;
+  width: 220px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  border: 2px solid #60a5fa;
+}
+
+.link-D:hover {
+  background-color: #191970; /* Azul escuro para hover */
+}
+
+#botao{
+  margin-top: 20px;
+}
+
+

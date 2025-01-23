@@ -1,0 +1,64 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Centraliza o conteúdo da página */
+/* Animação para o background */
+@keyframes spaceBackground {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.story-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Garante que ocupe toda a largura da tela */
+  height: 100vh; /* Garante que ocupe toda a altura da tela */
+  margin: 0; /* Remove margens padrão */
+  background: linear-gradient(240deg, #021a3d, #2c2e9e, #032446); /* Gradiente azul escuro */
+  background-size: 1000% 1000%; /* Aumenta o tamanho do fundo para suavizar o movimento */
+  animation: moveBackground 3s linear infinite; /* Animação de movimento mais longa */
+  position: absolute; /* Garante que o fundo se expanda para cobrir toda a tela */
+  top: 0;
+  left: 0;
+}
+
+  h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin: 10px;
+  }
+  #segredo{
+    display: flex;
+    margin-left: 80rem;
+   
+  }
+  /* Define o layout das imagens, com um pequeno espaçamento */
+  .image-gallery {
+    display: flex;
+    flex-direction: column; /* Coloca as imagens em coluna */
+    align-items: center; /* Centraliza as imagens na coluna */
+    gap: 15px; /* Espaço entre as imagens */
+  }
+  
+  /* Estilos para cada imagem */
+  .story-image {
+    width: 1200px; /* Ajuste o tamanho das imagens conforme necessário */
+    height: auto;
+    border-radius: 8px; /* Para dar um arredondamento nas bordas */
+  }
+  

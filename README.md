@@ -6,7 +6,7 @@
 
 - **Cadastro e Autenticação de Usuários:**
 
-  - Registro de usuários utilizando  autenticação via JWT.
+  - Registro de usuários utilizando autenticação via JWT.
 
 - **Acessibilidade:**
 
@@ -28,7 +28,7 @@
 
   - React.js
   - TypeScript
-  - Styled-Components
+  - CSS
 
 - **Backend:**
 
@@ -38,7 +38,7 @@
 
 - **Banco de Dados:**
 
-  - Postgres&#x20;
+  - Postgres
   - Docker
 
 - **APIs e Ferramentas:**
@@ -46,9 +46,32 @@
   - API de autenticação do Google
   - Ferramentas de acessibilidade
 
-##
+## Capturas de Tela
 
-##
+### Página Inicial
+
+
+Descrição: Interface inicial do site, apresentando o projeto e suas funcionalidades principais.
+
+### Página de Navegação
+
+
+Descrição: Navegação pelos módulos de aprendizado com temas de astronomia.
+
+### Página de Módulos
+
+
+Descrição: Detalhes sobre os módulos educacionais disponíveis.
+
+### Página de Questões
+
+
+Descrição: Interface para responder às questões de fixação dos módulos.
+
+### Página de Resultados
+
+
+Descrição: Tela que exibe os resultados das questões respondidas.
 
 ---
 

@@ -50,28 +50,29 @@
 
 ### Página Inicial
 
-
 Descrição: Interface inicial do site, apresentando o projeto e suas funcionalidades principais.
+![Captura de tela de 2025-01-23 20-31-52](https://github.com/user-attachments/assets/1fbef1c0-4205-46d5-9efc-bf07ca2cdba9)
 
-### Página de Navegação
+### Página de Login
 
+![Captura de tela de 2025-01-23 20-32-34](https://github.com/user-attachments/assets/806b3964-315a-4330-a12d-186dc3d628fc)
 
-Descrição: Navegação pelos módulos de aprendizado com temas de astronomia.
+### Página de HQs
 
-### Página de Módulos
+![Captura de tela de 2025-01-23 20-33-02](https://github.com/user-attachments/assets/e8d19d11-e07d-4fc1-945a-235c246b6cfe)
 
-
-Descrição: Detalhes sobre os módulos educacionais disponíveis.
+### Página de Acessiblidades
+![Captura de tela de 2025-01-23 20-33-12](https://github.com/user-attachments/assets/d947bcc2-e478-41b4-8e0b-93e5c1941d12)
 
 ### Página de Questões
 
-
 Descrição: Interface para responder às questões de fixação dos módulos.
+![Captura de tela de 2025-01-23 20-33-24](https://github.com/user-attachments/assets/e798e05d-248c-4bef-9947-5d0f5681d529)
 
-### Página de Resultados
 
 
-Descrição: Tela que exibe os resultados das questões respondidas.
+
+
 
 ---
 

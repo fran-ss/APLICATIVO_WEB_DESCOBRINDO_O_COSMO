@@ -152,10 +152,26 @@ button:hover {
 .error-message h4 {
   margin: 0;
   font-weight: bold;
+  margin-top: -25px;
   
 }
 
 .error-message:hover {
   background-color: #f5c6cb; /* Altere a cor de fundo quando o usuário passar o mouse */
   border-color: #f1a7b8; /* Tente um tom mais suave ao passar o mouse */
+}
+.close-button {
+  
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #c62828;
+  margin-left: 250px;
+}
+
+.close-button:hover {
+  color: #b71c1c;
 }

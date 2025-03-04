@@ -49,6 +49,11 @@ export function Login() {
     }
   };
 
+  // Função para fechar a mensagem de erro
+  const closeErrorMessage = () => {
+    setResponse(null); // Limpa a mensagem de erro
+  };
+
   return (
     <div id="page_1">
       <div id="page-1-1">
@@ -75,12 +80,17 @@ export function Login() {
             {loading ? "Carregando..." : "Entrar"}
           </button>
         </form>
-        
+
         {/* Exibir resposta do backend */}
         {response && response.error && (
+          
           <div className="error-message">
+            <p className="close-button" onClick={closeErrorMessage}>
+              ×
+            </p>
             <h4>Erro ao fazer login:</h4>
             <p>{response.error}</p>
+            
           </div>
         )}
       </div>
